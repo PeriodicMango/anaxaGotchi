@@ -1,0 +1,30 @@
+{
+  "name": "anaxagotchi",
+  "version": "1.0.0",
+  "description": "A fanmade, tamagotchi inspired mini game for Anaxagoras of Honkai: Star Rail",
+  "homepage": "https://github.com/PeriodicMango/anaxaTamagotchi#readme",
+  "bugs": {
+    "url": "https://github.com/PeriodicMango/anaxaTamagotchi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeriodicMango/anaxaTamagotchi.git"
+  },
+  "license": "ISC",
+  "author": "PeriodicMango",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "tsc": "tsc --noEmit",
+    "tsx": "tsx"
+  }
+,
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
