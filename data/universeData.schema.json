@@ -1,0 +1,44 @@
+{
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "description": { "type": "string" },
+          "stats": {
+            "type": "object",
+            "properties": {
+              "hunger": {
+                "type": "number",
+                "maximum": 100
+              },
+              "happiness": {
+                "type": "number",
+                "maximum": 100
+              },
+              "cleanliness": {
+                "type": "number",
+                "maximum": 100
+              },
+              "affection": {
+                "type": "number",
+                "maximum": 1000
+              },
+              "exp": {
+                "type": "number",
+                "maximum": 200
+              }
+            }
+          }
+        },
+        "required": ["name", "type"]
+      }
+    }
+  },
+  "required": ["name"]
+}
