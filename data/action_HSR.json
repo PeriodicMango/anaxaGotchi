@@ -1,0 +1,12 @@
+{
+  "actions": [
+    { "name": "进食", "itemType": "food" },
+    { "name": "清洁", "itemType": "clean" },
+    { "name": "学习", "itemType": "study" },
+    { "name": "娱乐", "itemType": "toy" },
+    { "name": "送礼", "itemType": "gift" },
+    { "name": "睡觉" },
+    { "name": "购物" },
+    { "name": "工作"}
+  ]
+}
