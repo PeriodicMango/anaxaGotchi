@@ -2,5 +2,7 @@
   "name": "阿那克萨戈拉斯",
   "universe": "崩坏：星穹铁道",
   "growthState": ["幼年", "少年", "青年", "成年"],
-  "initAffection": 0
+  "initAffection": 0,
+  "initEnergy": 70,
+  "initMoney": 100
 }

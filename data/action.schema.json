@@ -7,7 +7,8 @@
         "type": "object",
         "properties": {
           "name": { "type": "string" },
-          "itemType": { "type": "string" }
+          "itemType": { "type": "string" },
+          "stats": { "type": "object" }
         },
         "required": ["name"]
       }

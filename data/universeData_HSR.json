@@ -1,76 +1,95 @@
 {
   "name": "崩坏：星穹铁道",
-  "items": [
-    {
-      "name": "水",
-      "type": "food",
-      "description": "没什么特别的，只是一杯普通的水。",
-      "stats": {
-        "hunger": 5,
-        "happiness": 1
+  "items": {
+    "food": [
+      {
+        "name": "水",
+        "description": "没什么特别的，只是一杯普通的水。",
+        "stats": {
+          "hunger": 5,
+          "happiness": 1,
+          "energy": 1,
+          "money": -2
+        }
+      },
+      {
+        "name": "面包",
+        "description": "蓬松的白面包。",
+        "stats": {
+          "hunger": 15,
+          "happiness": 3,
+          "energy": 5,
+          "money": -3
+        }
       }
-    },
-    {
-      "name": "面包",
-      "type": "food",
-      "description": "蓬松的白面包。",
-      "stats": {
-        "hunger": 15,
-        "happiness": 5
+    ],
+    "study": [
+      {
+        "name": "灵魂炼金学I",
+        "description": "灵魂炼金学必读入门书籍，共三册。",
+        "stats": {
+          "exp": 20,
+          "happiness": 10,
+          "energy": -20,
+          "money": 10
+        }
       }
-    },
-    {
-      "name": "灵魂炼金学I",
-      "type": "study",
-      "description": "灵魂炼金学必读入门书籍，共三册。",
-      "stats": {
-        "exp": 20,
-        "happiness": -2
+    ],
+    "gift": [
+      {
+        "name": "贤者之石（仿）",
+        "description": "用红宝石仿制的贤者之石，在阳光下会闪闪发光。",
+        "stats": {
+          "affection": 20,
+          "happiness": 15,
+          "money": -50
+        }
+      },
+      {
+        "name": "大地兽玩偶（紫）",
+        "description": "可爱的大地兽棉花玩偶，但销量莫名不高。",
+        "stats": {
+          "affection": 50,
+          "happiness": 40,
+          "money": -15
+        }
       }
-    },
-    {
-      "name": "贤者之石（仿）",
-      "type": "gift",
-      "description": "用红宝石仿制的贤者之石，在阳光下会闪闪发光。",
-      "stats": {
-        "affection": 20,
-        "happiness": 15
+    ],
+    "clean": [
+      {
+        "name": "肥皂",
+        "description": "一块平平无奇的薄荷味肥皂。",
+        "stats": {
+          "cleanliness": 10,
+          "happiness": 5,
+          "energy": 3,
+          "money": -2
+        }
       }
-    },
-    {
-      "name": "大地兽玩偶（紫）",
-      "type": "gift",
-      "description": "可爱的大地兽棉花玩偶，但销量莫名不高。",
-      "stats": {
-        "affection": 50,
-        "happiness": 40
+    ],
+    "toy": [
+      {
+        "name": "木工套组",
+        "description": "包含一块木头与简易木工刻刀，可以刻出任何自己想要的形状。",
+        "stats": {
+          "cleanliness": -5,
+          "happiness": 15,
+          "energy": -10,
+          "money": -7
+        }
       }
-    },
-    {
-      "name": "肥皂",
-      "type": "clean",
-      "description": "一块平平无奇的薄荷味肥皂。",
-      "stats": {
-        "cleanliness": 10,
-        "happiness": 5
+    ],
+    "job": [
+      {
+        "name": "助教",
+        "stats": {
+          "happiness": 15,
+          "energy": -30,
+          "money": 40
+        },
+        "growth": ["青年", "成年"],
+        "duration": 2
       }
-    },
-    {
-      "name": "木工套组",
-      "type": "toy",
-      "description": "包含一块木头与简易木工刻刀，可以刻出任何自己想要的形状。",
-      "stats": {
-        "cleanliness": -5,
-        "happiness": 15
-      }
-    },
-    {
-      "name": "",
-      "type": "",
-      "description": "",
-      "stats": {
-
-      }
-    }
-  ]
+    ]
+  }
 }
