@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "universe": { "type": "string" },
+    "growthState": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "initAffection": {
+      "type": "number",
+      "maximum": 1000,
+      "minimum": 0
+    }
+  },
+  "required": ["name", "universe"]
+}
