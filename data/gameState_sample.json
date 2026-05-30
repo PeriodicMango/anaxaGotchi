@@ -1,0 +1,24 @@
+{
+  "gameDuration": 3.5,
+  "lastTick": 1716938400000,
+  "universe": "崩坏：星穹铁道",
+  "charName": "阿那克萨戈拉斯",
+  "nickname": "那刻夏",
+  "birthday": 1704067200000,
+  "growth": "幼年",
+  "activity": "学习",
+  "want": "大地兽玩偶（紫）",
+  "stats": {
+    "hunger": 45,
+    "happiness": 60,
+    "energy": 70,
+    "cleanliness": 55,
+    "money": 100,
+    "affection": 0,
+    "exp": 20
+  },
+  "inventory": {
+    "水": 3,
+    "面包": 1
+  }
+}

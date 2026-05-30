@@ -2,6 +2,13 @@
   "type": "object",
   "properties": {
     "name": { "type": "string" },
+    "statDefs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": { "type": "string" }
+      }
+    },
     "items": {
       "type": "object",
       "additionalProperties": {
@@ -18,15 +25,7 @@
             "duration": { "type": "number" },
             "stats": {
               "type": "object",
-              "properties": {
-                "hunger": { "type": "number" },
-                "happiness": { "type": "number" },
-                "cleanliness": { "type": "number" },
-                "affection": { "type": "number" },
-                "exp": { "type": "number" },
-                "money": { "type": "number" },
-                "energy": { "type": "number" }
-              }
+              "additionalProperties": { "type": "number" }
             }
           },
           "required": ["name"]
@@ -34,5 +33,5 @@
       }
     }
   },
-  "required": ["name"]
+  "required": ["name", "statDefs"]
 }

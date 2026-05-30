@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "properties": {
+    "gameDuration": {
+      "type": "number",
+      "description": "游戏总时长，单位小时"
+    },
+    "lastTick": {
+      "type": "number",
+      "description": "上次更新的 Unix 时间戳（毫秒）"
+    },
+    "universe": {
+      "type": "string",
+      "description": "当前使用的 universe mod 名称"
+    },
+    "charName": {
+      "type": "string",
+      "description": "角色名称，对应 char mod 的 name"
+    },
+    "nickname": { 
+      "type": "string",
+      "description": "用户给予角色的昵称"
+    },
+    "birthday": { 
+      "type": "number",
+      "description": "用户创建存档的时间（同样是角色的生日）"
+    },
+    "growth": {
+      "type": "string",
+      "description": "当前成长阶段，值来自 char mod 的 growthState"
+    },
+    "activity": {
+      "type": "string",
+      "description": "当前正在进行的动作名称"
+    },
+    "want": {
+      "type": "string",
+      "description": "角色当前想要的东西或动作"
+    },
+    "stats": {
+      "type": "object",
+      "additionalProperties": { "type": "number" },
+      "description": "动态数值，key 来自 universeData.statDefs"
+    },
+    "inventory": {
+      "type": "object",
+      "additionalProperties": { "type": "number" },
+      "description": "背包，key 为物品名，value 为数量"
+    }
+  },
+  "required": [
+    "gameDuration", 
+    "lastTick", 
+    "universe", 
+    "charName", 
+    "growth", 
+    "stats", 
+    "inventory"
+  ]
+}

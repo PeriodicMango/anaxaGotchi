@@ -1,5 +1,14 @@
 {
   "name": "崩坏：星穹铁道",
+  "statDefs": [
+    { "hunger": "饥饿值" },
+    { "happiness": "心情值" },
+    { "energy": "精力值" },
+    { "cleanliness": "清洁度" },
+    { "money": "金币" },
+    { "affection": "好感度" },
+    { "exp": "成长值" }
+  ],
   "items": {
     "food": [
       {
