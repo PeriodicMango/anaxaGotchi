@@ -1,12 +1,41 @@
 {
-  "actions": [
-    { "name": "进食", "itemType": "food" },
-    { "name": "清洁", "itemType": "clean" },
-    { "name": "学习", "itemType": "study" },
-    { "name": "娱乐", "itemType": "toy" },
-    { "name": "送礼", "itemType": "gift" },
-    { "name": "睡觉", "stats": { "energy": 15 } },
-    { "name": "购物" },
-    { "name": "工作", "itemType": "job" }
-  ]
+    "actions": [
+        {
+            "name": "进食",
+            "itemType": "food",
+            "baseStat": 0
+        },
+        {
+            "name": "清洁",
+            "itemType": "clean",
+            "baseStat": 20
+        },
+        {
+            "name": "学习",
+            "itemType": "study"
+        },
+        {
+            "name": "娱乐",
+            "itemType": "toy",
+            "baseStat": 0
+        },
+        {
+            "name": "送礼",
+            "itemType": "gift"
+        },
+        {
+            "name": "睡觉",
+            "stats": {
+                "energy": 15
+            },
+            "baseStat": 15
+        },
+        {
+            "name": "购物"
+        },
+        {
+            "name": "工作",
+            "itemType": "job"
+        }
+    ]
 }
